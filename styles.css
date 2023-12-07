@@ -11,3 +11,15 @@ body {
 ul {
     list-style-type: none;
 }
+
+.container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 385px 1fr;
+    grid-template-rows: 230px 1fr;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+}
