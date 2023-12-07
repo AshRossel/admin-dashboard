@@ -1,16 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
     <div class="container">
-        <div class="header"></div>
-        <div class="sidebar"></div>
-        <div class="content"></div>
+        <div class="container-contents | header"></div>
+        <div class="container-contents | sidebar">
+            <div class="sidebar-container">
+                <div class="sidebar-contents | sidebar-title">
+                    <div class="sidebar-items | title">
+                        <img src="images/dashboard.svg" alt="A small dashboard image" width="50px">
+                        <h1>Dashboard</h1>
+                    </div>
+                </div>
+                <div class="sidebar-contents | sidebar-user-menu">
+                    <div class="sidebar-items | home">
+                        <img src="./images/home.svg" alt="A small home image" width="30px">
+                        <p>Home</p>
+                    </div>
+                    <div class="sidebar-items | profile">
+                        <img src="./images/profile.svg" alt="A small card id image" width="30px">
+                        <p>Profile</p>
+                    </div>
+                    <div class="sidebar-items | messages">
+                        <img src="./images/messages.svg" alt="A small message ballon image" width="30px">
+                        <p>Messages</p>
+                    </div>
+                    <div class="sidebar-items | history">
+                        <img src="./images/history.svg" alt="A small clock image" width="30px">
+                        <p>History</p>
+                    </div>
+                    <div class="sidebar-items | tasks">
+                        <img src="./images/tasks.svg" alt="A small papers image" width="30px">
+                        <p>Tasks</p>
+                    </div>
+                    <div class="sidebar-items | communities">
+                        <img src="./images/communities.svg" alt="A small people image" width="30px">
+                        <p>Communities</p>
+                    </div>
+                </div>
+                <div class="sidebar-contents | sidebar-settings">
+                    <div class="sidebar-items | settings">
+                        <img src="./images/settings.svg" alt="A small cog image" width="30px">
+                        <p>Settings</p>
+                    </div>
+                    <div class="sidebar-items | support">
+                        <img src="./images/support.svg" alt="A small question box image" width="30px">
+                        <p>Support</p>
+                    </div>
+                    <div class="sidebar-items | privacy">
+                        <img src="./images/privacy.svg" alt="A small shield image" width="30px">
+                        <p>Privacy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-contents | main"></div>
     </div>
 </body>
+
 </html>
