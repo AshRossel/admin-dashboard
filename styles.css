@@ -29,6 +29,7 @@ ul {
     grid-row: 1 / 3;
     background-color: #1992D4;
     box-shadow: -3px 0 10px gray;
+    z-index: 1;
 }
 
 .sidebar-container {
@@ -66,4 +67,111 @@ ul {
 .title > h1 {
     font-weight: 600;
     font-size: 2rem;
+}
+
+.header-container {
+    height: 100%;
+    padding: 20px 55px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+}
+
+.header-container [class^="header"] {
+    display: flex;
+}
+
+.header-top {
+    gap: 120px;
+}
+
+.header-top-left, form {
+    align-items: center;
+    height: 100%;
+    gap: 25px;
+    flex: 1;
+}
+
+.header-top-right {
+    width: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 50px;
+}
+
+.perfil-image {
+    width: 60px;
+    height: 60px;
+    border-radius: 50% / 50%;
+    background-image: url("./images/cat.jpg");
+    background-position: center;
+    background-size: 300%;
+}
+
+.perfil-name {
+    font-size: 1.4rem;
+}
+
+input[type="text"] {
+    appearance: none;
+    font-size: 100%;
+    background-color: #E2E8F0;
+    border-radius: 18px;
+    height: 40px;
+    border: none;
+    flex: 1;
+    max-width: 800px;
+}
+
+label[for="search"] {
+    height: 30px;
+}
+
+.header-bottom {
+    align-items: end;
+}
+
+.header-bottom-left {
+    width: 480px;
+    gap: 30px;
+    align-items: center;
+}
+
+.header-bottom-right {
+    flex: 1;
+    height: 90px;
+    align-items: center;
+    justify-content: end;
+    gap: 20px;
+}
+
+.perfil-image-bigger {
+    width: 90px;
+    height: 90px;
+    border-radius: 50% / 50%;
+    background-image: url("./images/cat.jpg");
+    background-position: center;
+    background-size: 300%;
+}
+
+.user-name {
+    font-size: 1.6rem;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.welcoming {
+    font-weight: 800;
+}
+
+.buttons {
+    height: 50px;
+    width: 130px;
+    appearance: none;
+    border: none;
+    border-radius: 26px;
+    background-color: #1992D4;
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: white;
 }
